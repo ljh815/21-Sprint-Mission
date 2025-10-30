@@ -11,7 +11,7 @@ a {
 
 html, body {
     font-family: 'Pretendard', sans-serif;
-    background-color: #ffffff;
+    background-color: #fcfcfc;
     color: #374151;
     line-height: 1.6;
 }
@@ -137,18 +137,18 @@ button {
   margin-top: 24px;
 }
 
-h1 {
+h2 {
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
 }
 
 #watch {
-  background-image: url(images/Img_home_top.png);
+  background-image: url(../images/Img_home_top.png);
 }
 
 #trust {
-  background-image: url(images/Img_home_bottom.png);
+  background-image: url(../images/Img_home_bottom.png);
 }
 
 #mains {
@@ -173,7 +173,7 @@ footer {
   justify-self: start;
 }
 
-.Privacy {
+.privacy {
   display: flex;
   gap: 20px;
   justify-self: center;
