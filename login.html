@@ -23,12 +23,24 @@
 
       <form class="login-form">
         <label for="email">이메일</label>
-        <input type="email" id="email" required>
+        <input type="email" id="email" placeholder="이메일을 입력해주세요" required >
 
         <label for="password">비밀번호</label>
-        <input type="password" id="password" required>
+        <input type="password" id="password" placeholder="비밀번호를 입력해주세요" required>
         <button type="submit" class="login-button">로그인</button>
       </form>
+
+      <div class="social-login">
+          <p>간편 로그인하기</p>
+        <div class="social-button">
+          <button class="social-btn google-btn">
+            <img src="images/google-login.png" alt="google logo" />
+          </button>
+            <button class="social-btn kakao-btn">
+            <img src="images/kakao-login.png" alt="kakao logo" />
+          </button>
+        </div>
+      </div>
 
       <p class="signup-text">
         판타마켓이 처음이신가요? <a href="signup.html">회원가입</a>

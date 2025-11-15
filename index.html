@@ -20,10 +20,13 @@
   <body>
 
     <header>
-      <div class="logo">
-        <img class="icon" src="images/global-logo.png" alt="판다 로고">
-        <a href="login.html" id="login-button" class="button">로그인</a>
-      </div>
+    <div class="logo">
+      <picture>
+         <source media="(min-width: 375px) and (max-width: 767px)" srcset="images/mobile-logo.png"> 
+         <img class="icon" src="images/global-logo.png" alt="판다 로고"> 
+      </picture>
+      <a href="login.html" id="login-button" class="button">로그인</a>
+    </div>
     </header>
 
     <main>
@@ -40,42 +43,42 @@
 
       <section id="mains" class="text">
         <div class="main">
-          <img src="images/Frame 2608833.png" alt="핫 아이템">
+          <img src="images/mains-hot-img.png" alt="핫 아이템">
           <div class="content">
             <h2 class="label">Hot item</h2>
-            <h2>
+            <h2 class="h2-context">
               인기 상품을<br>
               확인해 보세요
             </h2>
-            <p class="label-con">
+            <p class="label-context">
               가장 HOT한 중고거래 물품을<br>
               판다 마켓에서 확인해 보세요
             </p>
           </div>
         </div>
-        <div class="main Se">
+        <div class="main second">
           <div class="content">
             <h2 class="label">Search</h2>
-            <h2>
+            <h2 class="h2-context">
               구매를 원하는<br>
               상품을 검색하세요
             </h2>
-            <p class="label-con">
+            <p class="label-context">
               구매하고 싶은 물품은 검색해서<br>
               쉽게 찾아보세요
             </p>
         </div>
-          <img src="images/Img_home_02.png" alt="검색">
+          <img src="images/mains-search-img.png" alt="검색">
         </div>
         <div class="main">
-          <img src="images/Img_home_03.png" alt="판매">
+          <img src="images/mains-register-img.png" alt="판매">
           <div class="content">
             <h2 class="label">Register</h2>
-            <h2>
+            <h2 class="h2-context">
               판매를 원하는<br>
               상품을 등록하세요
             </h2>
-            <p class="label-con">
+            <p class="label-context">
               어떤 물건이든 판매하고 싶은 상품을<br>
               쉽게 등록하세요
             </p>
@@ -95,7 +98,7 @@
     </main>
 
     <footer>
-      <div class="footer-codeit">
+      <div class="footer-copyright">
         <p>@codeit - 2024</p>
       <div class="privacy">
         <a href="policy.html">Privacy Policy</a>

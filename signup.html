@@ -23,22 +23,34 @@
 
       <form class="login-form">
         <label for="email">이메일</label>
-        <input type="email" id="email" required>
+        <input type="email" id="email" placeholder="이메일을 입력해주세요" required>
 
         <label for="name">닉네임</label>
-        <input type="text" id="name" required>
+        <input type="text" id="name" placeholder="닉네임을 입력해주세요" required>
 
         <label for="password">비밀번호</label>
-        <input type="password" id="password" required>
+        <input type="password" id="password" placeholder="비밀번호를 입력해주세요" required>
 
         <label for="password-check">비밀번호 확인</label>
-        <input type="text" id="password-check" required>
+        <input type="text" id="password-check" placeholder="비밀번호를 다시 한 번 입력해주세요" required>
 
         <button type="submit" class="login-button">회원가입</button>
       </form>
 
+      <div class="social-login">
+          <p>간편 로그인하기</p>
+        <div class="social-button">
+          <button class="social-btn google-btn">
+            <img src="images/google-login.png" alt="google logo" />
+          </button>
+            <button class="social-btn kakao-btn">
+            <img src="images/kakao-login.png" alt="kakao logo" />
+          </button>
+        </div>
+      </div>
+
       <p class="signup-text">
-        이미 회원이신가요? <a href="signup.html">로그인</a>
+        이미 회원이신가요? <a href="login.html">로그인</a>
       </p>
     </div>
   </body>
