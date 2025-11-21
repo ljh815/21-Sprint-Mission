@@ -29,12 +29,18 @@
         <input type="text" id="name" placeholder="닉네임을 입력해주세요" required>
 
         <label for="password">비밀번호</label>
-        <input type="password" id="password" placeholder="비밀번호를 입력해주세요" required>
+        <div class="password-wrapper">
+          <input type="password" id="password" placeholder="비밀번호를 입력해주세요" required>
+          <img src="./images/close-eye.png" class="toggle-password">
+        </div>
 
         <label for="password-check">비밀번호 확인</label>
-        <input type="text" id="password-check" placeholder="비밀번호를 다시 한 번 입력해주세요" required>
+        <div class="password-wrapper-second">
+          <input type="password" id="password-check" placeholder="비밀번호를 다시 한 번 입력해주세요" required>
+          <img src="./images/close-eye.png" class="toggle-password-second">
+        </div>
 
-        <button type="submit" class="login-button">회원가입</button>
+        <button type="submit" class="singup-button">회원가입</button>
       </form>
 
       <div class="social-login">
@@ -53,5 +59,7 @@
         이미 회원이신가요? <a href="login.html">로그인</a>
       </p>
     </div>
+    <script src="js/form.js"></script>
+    <script src="js/signup.js"></script>
   </body>
 </html>

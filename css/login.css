@@ -122,6 +122,19 @@ justify-content: space-between;
   height: 40px;
 }
 
+.password-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 14px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
 @media(min-width:375px) and (max-width:767px) {
   body {
     padding: 0 16px;

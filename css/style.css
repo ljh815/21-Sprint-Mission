@@ -93,11 +93,11 @@ button {
   padding: 1.5rem 13rem;
 }
 
-.bn .watch-button {
+.banner .watch-button {
   margin-top: 3rem;
 }
 
-.bn {
+.banner {
   background-color: #cfe5ff;
   height: 54rem;
   display: flex;
@@ -120,7 +120,7 @@ button {
   gap: 6rem;
 }
 
-.second {
+.reverse {
   text-align: right;
 }
 
@@ -150,11 +150,11 @@ h2 {
 }
 
 #watch {
-  background-image: url(../images/Img_home_top.png);
+  background-image: url(../images/Img-home-top.png);
 }
 
 #trust {
-  background-image: url(../images/Img_home_bottom.png);
+  background-image: url(../images/Img-home-bottom.png);
 }
 
 #mains {
@@ -185,13 +185,13 @@ footer {
   justify-self: center;
 } 
 
-.Privacy a {
+.privacy a {
   color: #e5e7eb;
   text-decoration: none;
   font-size: 1.6rem;
 }
 
-.Privacy a:hover {
+.privacy a:hover {
   text-decoration: underline;
 }
 
@@ -204,10 +204,6 @@ footer {
 .footer-snslink a {
   color: #e5e7eb;
   font-size: 1.6rem;
-}
-
-@media (max-width: 1920px) {
-
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -247,7 +243,7 @@ footer {
     font-weight: 500;
   }
 
-  .bn {
+  .banner {
     height: 70vh;
     display: flex;
     align-items: flex-start;
@@ -308,7 +304,7 @@ footer {
     height: 70vh;
   }
 
-  .second {
+  .reverse {
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-end;
@@ -316,18 +312,18 @@ footer {
     padding-right: 0.4rem;
   }
 
-  .second img {
+  .reverse img {
     padding: 1rem;
     height: 70vh;
   }
 
-  .second .content {
+  .reverse .content {
     text-align: right;
   }
 
-  .second .label,
-  .second h2,
-  .second .label-context {
+  .reverse .label,
+  .reverse h2,
+  .reverse .label-context {
     text-align: right;
     margin: 1rem; 
   }
@@ -402,7 +398,7 @@ footer {
     width: 14rem;
   }
 
-  .bn {
+  .banner {
     height: 70vh;
     display: flex;
     align-items: flex-start;
@@ -456,7 +452,7 @@ footer {
     height: 35vh;
   }
 
-  .second {
+  .reverse {
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-end;
@@ -464,19 +460,19 @@ footer {
     padding-right: 0.4rem;
   }
 
-  .second img {
+  .reverse img {
     padding: 1rem;
     width: 100%;
     height: 35vh;
   }
 
-  .second .content {
+  .reverse .content {
     text-align: right;
   }
 
-  .second .label,
-  .second h2,
-  .second .label-context {
+  .reverse .label,
+  .reverse h2,
+  .reverse .label-context {
     text-align: right;
     margin: 1rem; 
   }

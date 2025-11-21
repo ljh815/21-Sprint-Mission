@@ -52,7 +52,7 @@ input {
   margin: 0 auto;
 }
 
-.login-button {
+.singup-button {
   background-color: #3692FF;
   color: #F3F4F6;
   border: none;
@@ -65,7 +65,7 @@ input {
   line-height: 32px;
 }
 
-.login-button:hover {
+.singup-button:hover {
   background-color: #155ed8;
 }
 
@@ -120,6 +120,32 @@ justify-content: space-between;
 .social-btn img {
   width: 40px;
   height: 40px;
+}
+
+.password-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 14px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.password-wrapper-second {
+  position: relative;
+  width: 100%;
+}
+
+.toggle-password-second {
+  position: absolute;
+  right: 14px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
 }
 
 @media(min-width:375px) and (max-width:767px) {
