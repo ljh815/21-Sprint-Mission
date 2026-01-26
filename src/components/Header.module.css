@@ -1,0 +1,55 @@
+.Header {
+  padding: 0 clamp(1px, 20vw, 200px);
+}
+
+.HeaderMenu {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.Header nav ul li a:hover {
+  color: var(--blue);
+}
+
+.Header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #4b5563;
+}
+
+.HeaderLogo {
+  width: 153px;
+  height: 51px;
+  
+}
+
+.Profile {
+  width: 40px;
+  height: 40px;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .Header {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .Header {
+    padding: 0 16px;
+  }
+
+  .HeaderMenu {
+    gap: 8px;
+  }
+
+  .Header nav ul {
+    gap: 8px;
+    font-size: 16px;
+  }
+
+}

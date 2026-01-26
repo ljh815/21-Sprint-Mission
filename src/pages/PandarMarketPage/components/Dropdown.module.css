@@ -1,0 +1,79 @@
+.sortDropdown {
+  position: relative;
+}
+
+.sortTrigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 130px;
+  padding: 12px 20px;
+  border-radius: 12px;
+  background: white;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  height: 42px;
+}
+
+.sortText {
+  display: inline-block;
+}
+
+.sortIcon {
+  width: 24px;
+  height: 24px;
+  margin-left: 6px;
+}
+
+.dropdownMenu {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+  margin-top: 8px;
+}
+
+.dropdownItem {
+  padding: 12px 44px;
+  border-bottom: 1px solid #e5e7eb;
+  cursor: pointer;
+  font-size: 16px;
+  color: #1f2937;
+}
+
+.dropdownItem:hover {
+  background: #f5f5f5;
+}
+
+@media (max-width: 767px) {
+  .sortText {
+    display: none;
+  }
+  .sortText {
+    display: none;
+  }
+
+  .sortTrigger {
+    width: 42px;
+    height: 42px;
+    padding: 0;
+
+    justify-content: center;
+  }
+
+  .sortIcon {
+    margin-left: 0;
+  }
+
+  .dropdownMenu {
+    width: 130px;
+    margin-top: 4px;
+  }
+
+}
